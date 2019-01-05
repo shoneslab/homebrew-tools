@@ -9,5 +9,7 @@ class FissionCli < Formula
   end
 
   test do
+    # Verify the install
+    system "#{bin}/fission", "-l"
   end
 end
